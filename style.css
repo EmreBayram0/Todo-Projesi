@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(221, 221, 221);
+}
+
+.container {
+    background: linear-gradient(to bottom, rgb(94, 201, 230), rgb(252, 186, 186)75%);
+    width: 500px;
+    border-radius: 32px;
+    position: relative;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    min-height: 350px;
+}
+
+.todoAdd input,
+.todoSearch input {
+    width: 200px;
+    height: 30px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.todoAdd input:focus,
+.todoSearch input:focus {
+    border-bottom: 2px solid black;
+}
+
+.todoAdd h3,
+.todoSearch h3,
+.todos h3 {
+    text-align: center;
+    text-shadow: 3px 3px 3px gray;
+    font-size: 24px;
+}
+
+.todo {
+    width: 90%;
+    height: 60px;
+    border: 2px solid black;
+    border-radius: 32px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 15px;
+}
+
+.fa-circle-xmark {
+    font-size: 20px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+}
+
+.todoP {
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 10px;
+    width: 400px;
+    height: 40px;
+    overflow: hidden;
+    text-align: center;
+}
